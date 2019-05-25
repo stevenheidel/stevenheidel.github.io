@@ -15,7 +15,7 @@
     <main class="black-90 lh-copy measure-wide">
         <section class="mt3">
             <p>
-                I enjoy developing <span class="b">software</span> and developing <span class="b">people</span>.
+                I develop <span class="b">software</span> and develop <span class="b">people</span>.
 
                 In the past I've helped build quantum computers, created new professional social networking apps,
                 and co-founded a startup in the entertainment space.
@@ -31,8 +31,8 @@
         </section>
         <section class="mt4">
             <h2 class="black-70 f3 tracked ttu">Work Experience</h2>
-            <ul class="bb list pl0">
-                <li class="bt">
+            <ul class="bb b--black-40 list pl0">
+                <li class="bt b--black-40">
                     <div class="flex items-center">
                         <img alt="Rigetti Logo" class="w2 h2" src="rigetti-logo.png">
                         <p class="b ml3">Rigetti Computing</p>
@@ -40,7 +40,7 @@
                     <p>Software Engineering Manager (Jun 2018 &ndash; Jun 2019)</p>
                     <p>Senior Software Engineer (Sep 2017 &ndash; Jun 2018)</p>
                 </li>
-                <li class="bt">
+                <li class="bt b--black-40">
                     <div class="flex items-center">
                         <!-- TODO: correct logo size, spacing issues -->
                         <img alt="LinkedIn Logo" class="w2 h2" src="linkedin-logo.png">
@@ -60,22 +60,48 @@
         </section>
         <section class="mt4">
             <h2 class="black-70 f3 tracked ttu">Articles &amp; Talks</h2>
-            <p class="mb1">Talk: Controlling a Quantum Computer with Code</p>
-            <ul class="list mt1">
-                <li>&mdash; Index Conference 2018 [Youtube]</li>
-                <li>&mdash; Python Meetup [Youtube]</li>
-                <li>&mdash; Rust Meetup [Youtube]</li>
-                <li>&mdash; Institute for Quantum Computing Waterloo [Youtube]</li>
+            <ul class="list pl0">
+                <li>Talk: Controlling a Quantum Computer with Code</li>
+                <ul class="list">
+                    <li>&mdash; Index Conference 2018 [Youtube]</li>
+                    <li>&mdash; Python Meetup [Youtube]</li>
+                    <li>&mdash; Rust Meetup [Youtube]</li>
+                    <li>&mdash; University of Waterloo [Youtube]</li>
+                </ul>
+                <li class="mt3">Article: Practical Functional Programming [Medium]</li>
+                <li class="mt3">
+                    Article: What I learned from doing 1000 code reviews [Medium]<br>
+                    <!-- TODO get this stat -->
+                    <span class="i">Most read programming article of 2018</span>
+                </li>
+                <li class="mt3">Article: A FactoryFactoryFactory in Production [Medium]</li>
+                <li class="mt3">Talk: From Saskatchewan to Silicon Valley &mdash;&nbsp;Contact&nbsp;Conference&nbsp;2016
+                </li>
             </ul>
-            <p>Article: Practical Functional Programming [Medium]</p>
-            <p>
-                Article: What I learned from doing 1000 code reviews [Medium]<br>
-                <!-- TODO get this stat -->
-                <span class="i">Most read programming article of 2018</span>
-            </p>
         </section>
         <section class="mt4">
-            <h2 class="black-70 f3 tracked ttu">Open Source</h2>
+            <h2 class="black-70 f3 tracked ttu">
+                Open Source
+            </h2>
+            <ul class="list pl0">
+                <li>
+                    <a href="https://github.com/rigetti/pyquil">PyQuil</a> (Python)<br>
+                    Core contributor to this library for quantum programming.
+                </li>
+                <li class="mt3">
+                    <a href="https://github.com/rigetti/rpcq">RPCQ</a> (Python, Lisp)<br>
+                    RPCQ is an RPC framework on top of ZeroMQ which is optimized for performant hybrid quantum
+                    programming. I defined the serialization format, wrote the client/server protocol for Python, and
+                    made some small contributions to the Lisp code generation tool.
+                </li>
+                <li class="mt3">
+                    <a href="https://github.com/getclump/clump">Clump</a> (Scala)<br>
+                    Core contributor to this library for expressive and efficient service composition. Also lead the
+                    design of the equivalent
+                    <a href="https://github.com/linkedin/parseq/tree/master/subprojects/parseq-batching">
+                        Java version</a> which is used across LinkedIn's backend.
+                </li>
+            </ul>
         </section>
         <section class="mt4">
             <h2 class="black-70 f3 tracked ttu">Books</h2>
