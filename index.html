@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 </head>
 
-<body class="center mw7 ph4 sans-serif">
+<body class="bg-black-0125 center mw7 ph4 sans-serif">
     <header>
         <h1 class="black-80 f1">
             Hello, I&rsquo;m Steven&nbsp;Heidel
@@ -35,24 +35,44 @@
                 <li class="bt b--black-40">
                     <div class="flex items-center">
                         <img alt="Rigetti Logo" class="w2 h2" src="rigetti-logo.png">
-                        <p class="b ml3">Rigetti Computing</p>
+                        <p class="b ml3">Rigetti Quantum Computing</p>
                     </div>
-                    <p>Software Engineering Manager (Jun 2018 &ndash; Jun 2019)</p>
-                    <p>Senior Software Engineer (Sep 2017 &ndash; Jun 2018)</p>
+                    <ul class="list">
+                        <li>&mdash; Software Engineering Manager (Jun 2018 &ndash; Jun 2019)</li>
+                        <li>&mdash; Senior Software Engineer (Sep 2017 &ndash; Jun 2018)</li>
+                    </ul>
+                    <p>
+                       Description 
+                    </p>
                 </li>
                 <li class="bt b--black-40">
                     <div class="flex items-center">
-                        <!-- TODO: correct logo size, spacing issues -->
                         <img alt="LinkedIn Logo" class="w2 h2" src="linkedin-logo.png">
                         <p class="b ml3">LinkedIn</p>
                     </div>
-                    <p>Staff Software Engineer (Dec 2016 &ndash; Sep 2017)</p>
-                    <p>Senior Software Engineer (Sep 2015 &ndash; Dec 2016)</p>
-                    <p>Software Engineer (Sep 2014 &ndash; Sep 2015)</p>
+                    <ul class="list">
+                        <li>&mdash; Staff Software Engineer (Dec 2016 &ndash; Sep 2017)</li>
+                        <li>&mdash; Senior Software Engineer (Sep 2015 &ndash; Dec 2016)</li>
+                        <li>&mdash; Software Engineer (Sep 2014 &ndash; Sep 2015)<li>
+                    </ul>
+                    <p>
+                        Description
+                    </p>
                 </li>
-                <!-- TODO: add Encore -->
+                <li class="bt b--black-40">
+                    <div class="flex items-center">
+                        <img alt="Encore Logo" class="w2 h2" src="encore-logo.png">
+                        <p class="b ml3">Encore</p>
+                    </div>
+                    <ul class="list">
+                        <li>&mdash; Co-Founder and CTO (Mar 2013 &ndash; Aug 2014)</li>
+                    </ul>
+                    <p>
+                        Description
+                    </p>
+                </li>
             </ul>
-            <!-- TODO: border, link, and accent color -->
+            <!-- TODO: border, descriptions, link, and accent color -->
             <p>See my LinkedIn profile for descriptions</p>
         </section>
         <section class="mt4">
@@ -63,19 +83,32 @@
             <ul class="list pl0">
                 <li>Talk: Controlling a Quantum Computer with Code</li>
                 <ul class="list">
-                    <li>&mdash; Index Conference 2018 [Youtube]</li>
-                    <li>&mdash; Python Meetup [Youtube]</li>
-                    <li>&mdash; Rust Meetup [Youtube]</li>
-                    <li>&mdash; University of Waterloo [Youtube]</li>
+                    <li>&mdash; Index Conference 2018
+                        [<a href="https://www.youtube.com/watch?v=lL1SIYBomTw">YouTube</a>]
+                    </li>
+                    <li>&mdash; Python Meetup</li>
+                    <li>&mdash; Rust Meetup
+                        [<a href="https://www.youtube.com/watch?v=mrJWpQMx2yo">YouTube</a>]
+                    </li>
+                    <li>&mdash; University of Waterloo
+                        [<a href="https://www.youtube.com/watch?v=N0uPH-yLuwQ">YouTube</a>]
+                    </li>
                 </ul>
-                <li class="mt3">Article: Practical Functional Programming [Medium]</li>
-                <li class="mt3">
-                    Article: What I learned from doing 1000 code reviews [Medium]<br>
-                    <!-- TODO get this stat -->
-                    <span class="i">Most read programming article of 2018</span>
+                <li class="mt3">Article: Practical Functional Programming
+                    [<a href="https://hackernoon.com/practical-functional-programming-6d7932abc58b">Medium</a>]
+                    <br><span class="i">2nd most popular software engineering article that day on Medium</span>
                 </li>
-                <li class="mt3">Article: A FactoryFactoryFactory in Production [Medium]</li>
-                <li class="mt3">Talk: From Saskatchewan to Silicon Valley &mdash;&nbsp;Contact&nbsp;Conference&nbsp;2016
+                <li class="mt3">
+                    Article: What I learned from doing 1000 code reviews
+                    [<a
+                        href="https://hackernoon.com/what-i-learned-from-doing-1000-code-reviews-fe28d4d11c71">Medium</a>]
+                    <br><span class="i">Most popular article that day across all of Medium</span>
+                </li>
+                <li class="mt3">Article: A FactoryFactoryFactory in Production
+                    [<a href="https://hackernoon.com/a-factoryfactoryfactory-in-production-822478b5afbd">Medium</a>]
+                </li>
+                <li class="mt3">
+                    Talk: From Saskatchewan to Silicon Valley &mdash; Contact Conference 2016
                 </li>
             </ul>
         </section>
@@ -91,8 +124,7 @@
                 <li class="mt3">
                     <a href="https://github.com/rigetti/rpcq">RPCQ</a> (Python, Lisp)<br>
                     RPCQ is an RPC framework on top of ZeroMQ which is optimized for performant hybrid quantum
-                    programming. I defined the serialization format, wrote the client/server protocol for Python, and
-                    made some small contributions to the Lisp code generation tool.
+                    programming. I was the primary author of the schema and client/server specification.
                 </li>
                 <li class="mt3">
                     <a href="https://github.com/getclump/clump">Clump</a> (Scala)<br>
